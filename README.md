@@ -23,9 +23,9 @@ API for registering users with MongoDB and authenticate them using passport, pas
 </pre>
 
 <pre>
-<code>POST /users/authenticate      // Gives back a token</code>
+<code>POST /users/authenticate      // Responds back with a token</code>
 </pre>
 
 <pre>
-<code>GET /users/profile            // Needs a JSON web token</code>
+<code>GET /users/profile            // Requires a JSON web token</code>
 </pre>
